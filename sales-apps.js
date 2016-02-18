@@ -25,21 +25,21 @@ this.fill = function(bCell1, bCell2, bCell3, bCell4) {
     var cell2 = row.insertCell(1);
     var cell3 = row.insertCell(2);
     var cell4 = row.insertCell(3);
-     bCell1.innerHTML = cell1;
-     bCell2.innerHTML = cell2;
-     bCell3.innerHTML = cell3;
-     bCell4.innerHTML = cell4;
+     Cell1.innerHTML = cell1;
+     Cell2.innerHTML = cell2;
+     Cell3.innerHTML = cell3;
+     Cell4.innerHTML = cell4;
   }
 };
 
 //+++++++++++ object vars +++++++++
 
 //---------- universal vars --------------
-// var time = [];
-//var drivers = []
+var time = [0];
+var drivers = [1];
 //--------- induvidual vars -------------
-// var bpizzas = [];
-// var bdeliveries = [];
+var bpizzas = [1,5,2,18,1,8];
+var bdeliveries = [1,2,1,3,5,6];
 // var fpizzas = [];
 // var fdeliveries = [];
 // var spizzas = [];
@@ -54,7 +54,7 @@ this.fill = function(bCell1, bCell2, bCell3, bCell4) {
 
 //++++++++++++++ Instances +++++++++++
 
-var ballard = new Place(time[],[],[],[])
+var ballard = new Place(time[],pizzas[],deliveries[],drivers[])
 //var firsthill = new Place()
 //var southlakeunion = new Place()
 //var theinternationaldistrict = new Place()

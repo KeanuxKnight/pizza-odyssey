@@ -1,5 +1,7 @@
 'use strict'
 
+//++++++++ example and testing +++++++++
+//-------- do not use in final project ---------
 var table = document.createElement('table');
 var row1 = document.createElement('tr');
 var r1d1 = document.createElement('td');
